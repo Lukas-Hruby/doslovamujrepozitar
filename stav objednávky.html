@@ -10,18 +10,48 @@
 <header>
     <h1>Objednávka</h1>
 <form>
-  <label for="název-produktu">Produkt :</label> <input type="text" name="produkt" id="název-produktu" placeholder="název produktu"> <br>
-  <label for="Číslo">Počet :</label> <input type="text" name="Počet" id="Počet" placeholder="Číslo"> <br>
+  <label for="název-produktu">Produkt :</label> <input type="text" name="produkt" id="název-produktu" placeholder="název produktu">
+  <br>
+
+  <label for="Číslo">Počet :</label> <input type="text" name="Počet" id="Počet" placeholder="Číslo">
+  <br>
 </form>
+
 <h1>Doručení</h1>
+
 <form>
-  <label for="jméno">jméno a přijmení :</label>  <input type="text" name="Jméno a přijmení" placeholder="jméno a přijmení" id="jméno"> <br>
-  <label for="ulice">Ulice a ČP :</label>  <input type="text" name="ulice a ČP" placeholder="Ulice a ČP" id="ulice"> <br>
-  <label for="stát">stát :</label>  <input type="text" name="stát" placeholder="výběr z možností" id="stát"> <br>
-  <label for="email">E-mail :</label>  <input type="text" name="E-mail" placeholder="E-mail" id="email"> <br>
-  <label for="telefon">Telefon :</label>  <input type="text" name="Telefon" placeholder="telefon" id="telefon"> <br>
-  <label for="datum odeslání">Datum odeslání :</label>  <input type="date" name="datum odeslání" placeholder="datum odeslání" id="datum odeslání"> <br>
-  <label for="zpráva">Zpráva :</label>  <input type="text" name="zpráva" placeholder="zpráva pro nás" id="zpráva"> <br>
+
+  <label for="jméno">jméno a přijmení :</label><input type="text" name="Jméno a přijmení" placeholder="jméno a přijmení" id="jméno">
+  <br>
+
+  <label for="ulice">Ulice a ČP :</label><input type="text" name="ulice a ČP" placeholder="Ulice a ČP" id="ulice">
+  <br>
+
+  <label for="stát">stát :</label><input type="text" name="stát" placeholder="výběr z možností" id="stát">
+  <br>
+
+  <label for="email">E-mail :</label><input type="text" name="E-mail" placeholder="E-mail" id="email">
+  <br>
+
+  <label for="telefon">Telefon :</label><input type="text" name="Telefon" placeholder="telefon" id="telefon">
+  <br>
+
+  <label for="datum odeslání">Datum odeslání :</label><input type="date" name="datum odeslání" placeholder="datum odeslání" id="datum odeslání">
+  <br>
+
+  <label for="zprava">Zpráva :</label><textarea name="zprava" id="zprava" cols="50" rows="5" placeholder="zpráva pro nás"></textarea>
+  <br>
+
+  <label for="zpracovani">Souhlasím s nakládáním dat.</label><input type="checkbox" name="zpracovani" id="zpracovani"> 
+  <br>
+
+  <label for="legalni-nelegalni">je váš nákup legální či ne ?</label>
+  <select name="legalni-nelegalni" id="legalni-nelegalni">
+  <option value="legalni-nelegalni">legální</option>
+  <option value="legalni-nelegalni">nelegální</option>
+</select>
+  <br>
+
   <input type="submit" value="potvrdit">
 </form>
 </header>

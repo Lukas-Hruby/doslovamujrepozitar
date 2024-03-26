@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sora:wght@600&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: white;
+}
+
+h1,h2,h3 {
+    font-family: 'Sora', sans-serif;
+}
+
+
+
+
+.box-1 {
+    margin: 50px;
+    padding-left: 700px;
+}
+
+
+.box-2 {
+    height: 50px;
+    width: 50px;
+}
+
+
+ul a:hover {
+    text-decoration: aliceblue;
+    color: white;
+}
+
+
+.navbar-brand {
+    text-decoration: none;
+}
+
+.footer {
+    text-decoration: none;
+}
+
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+li {
+    margin: 2px 10px;
+    display: inline-block;
+}
+
+
+.logo2 {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.center {
+    text-align: center;
+    border: 3px
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    display: inline-block;
+}

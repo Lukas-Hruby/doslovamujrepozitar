@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sora:wght@600&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  .cenik {
+    flex: 1 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 24px;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid black;  
+  }
+  
+  .cenik a {
+    display: block;
+    margin-top: 12px;
+    padding: 6px;
+    background-color: black;
+    color: white;
+  }

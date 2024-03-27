@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: white;
 }
 
 * {
@@ -45,3 +47,12 @@ body {
     background-color: black;
     color: white;
   }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+ margin-left: 45%;
+}
